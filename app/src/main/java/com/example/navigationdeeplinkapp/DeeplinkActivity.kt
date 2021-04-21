@@ -27,7 +27,7 @@ class DeeplinkActivity : AppCompatActivity() {
 
         if (action == Intent.ACTION_VIEW && data != null) {
 
-            if (Constants.appIsRunning == true) {
+            if (Constants.isAppRunning == true) {
                 MainActivity.open(this@DeeplinkActivity, data)
             } else {
                 SplashActivity.open(this@DeeplinkActivity, data)

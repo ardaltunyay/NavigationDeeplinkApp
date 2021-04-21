@@ -1,5 +1,5 @@
 package com.example.navigationdeeplinkapp
 
 object Constants {
-    var appIsRunning: Boolean? = null
+    var isAppRunning: Boolean? = null
 }
